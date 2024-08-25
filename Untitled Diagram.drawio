@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;flipV=1;" parent="1" vertex="1">
-          <mxGeometry x="44" y="70" width="740" height="380" as="geometry" />
+          <mxGeometry x="44" y="85" width="740" height="490" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="FQHC/Clinic EHRs" style="swimlane;html=1;startSize=20;horizontal=0;flipV=1;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" width="720" height="140" as="geometry" />
@@ -37,29 +37,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Unite Us" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="140" width="720" height="120" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Unite Us Datawarehouse" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="140" width="720" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-4" value="EMPI" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="66" y="30" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-3" value="Clinical History" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="176" y="30" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-2" value="LAB Data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="276" y="30" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-11" value="Referral Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="376" y="22.5" width="60" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-13" value="Benefits&lt;div&gt;Enrollment&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="476" y="30" width="60" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="S201DooarEhmQx4RyBzS-15" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="S201DooarEhmQx4RyBzS-15" value="Revenue Cycle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="576" y="25" width="60" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Validation" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="260" width="720" height="120" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Business Validation" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="310" width="720" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S201DooarEhmQx4RyBzS-24" value="Unite Us Web Portal/ EHR Integrated" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="180" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="S201DooarEhmQx4RyBzS-25" value="Patient Info and Screening" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="S201DooarEhmQx4RyBzS-24">
+          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S201DooarEhmQx4RyBzS-26" value="Referral Management, Assessment, Care Plans" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="S201DooarEhmQx4RyBzS-24">
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S201DooarEhmQx4RyBzS-27" value="Bidirectional Communication, Alerts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="S201DooarEhmQx4RyBzS-24">
+          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S201DooarEhmQx4RyBzS-29" value="Outcome Tracking" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="S201DooarEhmQx4RyBzS-24">
+          <mxGeometry y="120" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S201DooarEhmQx4RyBzS-16" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="S201DooarEhmQx4RyBzS-5" target="S201DooarEhmQx4RyBzS-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -92,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S201DooarEhmQx4RyBzS-7" value="Data Conversion Phase&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="180" y="10" width="290" height="40" as="geometry" />
+          <mxGeometry x="250" y="25" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
